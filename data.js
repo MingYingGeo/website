@@ -18,30 +18,31 @@ const SITE_DATA = {
   // 品牌名稱與標語，頁首、頁尾共用同一份，改這裡兩處會一起更新
   brand: {
     name: "MingYing Geo",
-    tagline: "空間科技・智慧地圖・RTK・GPS"
+    tagline: "智慧地圖 探索在地"
   },
 
   // 首頁主標題與說明文字
   hero: {
-    title: "用衛星定位的精準，讓每一張地圖都值得信賴",
-    lead: "MINGYING GEO 專注於 RTK 衛星定位、空間資訊系統（GIS）與測繪技術整合，協助工程、水利、國土規劃與能源開發團隊，把複雜的地理資料化為清楚可用的決策依據。"
+    title: "用地圖看世界，用定位探索在地",
+    lead: "Ming Ying Geo 專注於 GIS、空間資訊與定位技術，結合社區規劃、景點探索與觀光導覽，將地理資訊融入在地生活，探索地方景點、認識人文特色，讓更多人看見土地的故事與魅力。"
   },
 
   // 上方選單、以及首頁的四個快速連結方塊，共用同一份資料
   navItems: [
-    { target: "products",  icon: "layers",  title: "產品資訊",   desc: "RTK 定位設備、GIS 平台與測繪解決方案" },
+    { target: "products",  icon: "layers",  title: "產品資訊",   desc: "社區規劃、景點探索與觀光導覽解決方案" },
     { target: "cases",     icon: "pin",     title: "案例分享",   desc: "實際導入案例與應用成果" },
-    { target: "tutorials", icon: "compass", title: "GIS教學區", desc: "空間資訊觀念與操作教學" },
-    { target: "about",     icon: "info",    title: "關於",       desc: "團隊理念與服務範圍" }
+    { target: "tutorials", icon: "compass", title: "GIS/GPS教學區", desc: "空間資訊觀念與操作教學" },
+	{ target: "download",  icon: "download",title: "程式下載...", desc: "相關程式下載區...." },
+    { target: "about",     icon: "info",    title: "關於...",       desc: "團隊理念與服務範圍" }
   ],
 
   // 產品資訊頁：要新增產品，複製一組貼在陣列最後面
   products: [
     {
       icon: "target",
-      tag: "定位設備",
-      title: "RTK 衛星定位系統",
-      desc: "提供公分級即時動態定位（RTK），支援道路、水利與地籍測量現場作業，大幅縮短放樣與測量時間。"
+      tag: "Android APP應用",
+      title: "景點探索家(Spot Explorer)",
+      desc: "結合GPS定位與在地導覽，帶領使用者探索社區、景點與地方特色。透過位置引導、景點介紹與互動任務，讓使用者在旅途中認識自然環境、歷史文化與在地故事，發現每一個地方獨特的魅力"
     },
     {
       icon: "grid",
